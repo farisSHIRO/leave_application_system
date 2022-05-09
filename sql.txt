@@ -1,0 +1,41 @@
+//To create database 
+create database leave_application_system;
+
+//create table admin
+CREATE TABLE `admin` (
+  `Username` varchar(10) DEFAULT NULL,
+  `Password` varchar(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+Insert into admin (Username, Password) values ("Tisha" , "Tisha01");
+
+
+
+//create table employee
+CREATE TABLE `employee` (
+  `Username` varchar(10) DEFAULT NULL,
+  `Password` varchar(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+Insert into employee (Username, Password) values ("Arman" , "Arman00");
+
+
+//create leave_request table
+CREATE TABLE leave_request (
+  emp_no int(11) NOT NULL AUTO_INCREMENT,
+  emp_name varchar(50) NOT NULL,
+  emp_reasonleave varchar(50) NOT NULL,
+  emp_leavedate date NOT NULL,
+  emp_leaveduration int(10) NOT NULL,
+  emp_leavestatus varchar(30) DEFAULT NULL,
+  PRIMARY KEY (emp_ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+//create contact table to save the message the user send in contact us
+create table contact(
+name varchar(50),
+email varchar(50),
+message varchar(255)
+);

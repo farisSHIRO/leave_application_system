@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Employee Page</title>
+    </head>
+    <body>
+	<style>
+	*,html,body
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-color: ;
+	height: 135px;
+	line-height: 135px;
+}
+
+ul
+{
+	list-style:none;
+}
+
+ul li
+{
+	display: inline-block;
+}
+
+header nav {
+	float: right;
+}
+
+
+header nav ul li a {
+	padding: 10px 20px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	margin-right: 20px;
+}
+
+
+header nav ul li.active a {
+	border: 1.5px solid orange;
+	border-radius: 10px;
+}
+
+header nav ul li a:hover {
+	text-decoration: none;
+	border: 1.5px inset red;
+	border-radius: 10px;
+}
+
+body {
+	font-family: monospace;
+	margin: auto;
+	background-image: url("wp9723564-it-company-wallpapers.jpg");
+}
+
+.row{
+	max-width: 1310px;
+	margin: auto;
+}
+.container{
+	background-color:#AA98A9;
+	height: 135px;
+	line-height: 135px;
+	
+	
+}
+
+.viewreq2 {
+	width:1000px;
+	border: white;
+	border-radius:10px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	background-color: #FFF9F9;
+	height: 380px;
+	padding:20px;
+}
+
+
+.footer {
+	clear: both;
+	padding: 30px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	bottom:0px;
+	position:fixed;
+	width:100%;
+}
+
+
+.content:hover:not(.active)  {
+	background-color: #AA98A9;
+	color: white;
+	
+}
+
+.employeepfp {
+	margin-left:25px;
+	margin-top:35px;
+}
+
+.employeeprofile {
+	font-family:"Roboto", sans-serif;
+	font-size: 30px;
+	margin-left: 40px;
+}
+
+.employeebio {
+	margin-left: 40px;
+	font-family:"Roboto", sans-serif;
+	font-size: 20px;
+}
+	</style>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <a href=""><img src="logo_rexaro.png" height="135"> </a>
+					<nav>
+                    <ul>
+                        <li class="active">
+						<li><a href="Employee_LeaveRequest_Page.php">Request Leave</a></li>
+						<li><a href="Employee_CheckStatus.php">Check Status</a></li>
+						<li><a href="Rexaro_MainPage.html">Exit</a></li>
+                    </ul>
+                </nav>
+                </div>				
+            </div>
+        </header>
+		<br>
+		<br>
+		
+		<div class="viewreq2">
+			<table>
+				<tr>
+					<td><img class="employeepfp" src="empprofilepic (2).jpg" alt="Employee Profile Picture" width="350" height="300"></td>
+					
+					<td>
+					<span class="employeeprofile"><u> Total Annual Leave </u> </span>
+					<br>
+					<br>
+					<div class="employeebio">
+						<ul>
+							<li>- 8 days per year for employees who have worked 1-2 years </li>
+							<br>
+							<li>- 12 days per year for those who have worked 2-5 years</li>
+							<br>
+							<li>- 16 days per year for employees who have worked longer than 5 years</li>
+						</ul>
+					</div>
+					<br>
+					<span class="employeeprofile"><u> Format for Leave Reason </u> </span>
+					<br>
+					<br>
+					<div class="employeebio">
+						<ul>
+							<li>- Employee must have a reasonable excuse to apply for leave </li>
+							<br>
+							<li>- When filling up the form, please replace the space with '_'</li>
+							<br>
+							<li>- Example: Family_matters</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+	    <div class="footer">
+        Copyright &copy; 2022 Rexaro. All rights reserved.
+    </div>
+</body>
+</html>

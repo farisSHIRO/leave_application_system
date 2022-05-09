@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>About</title>
+</head>
+<body>
+	<style>
+
+		*, html, body {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+
+		body {
+			font-family: monospace;
+			margin: auto;
+			background-image: url("wp9723564-it-company-wallpapers.jpg");
+		}
+
+		header
+		{
+			background-color: ;
+			height: 135px;
+			line-height: 135px;
+		}
+
+		/*Navigation Section*/
+		ul {
+			list-style: none;
+		}
+
+			ul li {
+				display: inline-block;
+			}
+
+		header nav {
+			float: right;
+		}
+
+            header nav ul li a {
+                padding: 10px 20px;
+                font-weight: bold;
+                color: white;
+                text-decoration: none;
+                font-family: "Roboto", sans-serif;
+                font-size: 15px;
+                margin-right: 20px;
+                header nav ul li.active a
+            }
+
+header nav ul li.active a {
+        
+            border: 1.5px solid orange;
+            border-radius: 10px;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: none;
+            border: 1.5px inset red;
+            border-radius: 10px;
+        }
+
+        .raw {
+            max-width: 1310px;
+            margin: auto;
+        }
+        /*Search Bar */
+
+        .container{
+			background-color:#AA98A9;
+			height: 135px;
+			line-height: 135px;
+
+		}
+
+		form {
+			float: none;
+			margin-right: 100px;
+			background-color:;
+		}
+
+		input[type=text] {
+			width: 380px;
+			box-sizing: border-box;
+			border: 2px solid orange;
+			border-radius: 100px;
+			font-size: 16px;
+			background-color: white;
+			background-image: url('searchicon.png');
+			background-position: 6px;
+			background-repeat: no-repeat;
+			padding: 10px 20px;
+		}
+
+
+		/*Logo Description */
+
+		.descborder {
+			width: 400px;
+			border: 2px solid black;
+			background-color: white;
+			height: 460px;
+			padding: 50px;
+			margin-left: 180px;
+			text-align: center;
+		}
+		.descborder:hover {
+				background-color: #FC7884;
+				color:white;
+			}
+
+        /*.descborder:hover {
+								background-color: #FC7884;
+							}
+								*/
+        /*Company Profile */
+        .profileborder {
+            width: 600px;
+            border: 2px solid black;
+            background-color: white;
+            height: 460px;
+            padding: 40px;
+        }
+
+			.profileborder:hover {
+				background-color: #FC7884;
+				color:white;
+			}
+
+		/*Background Story*/
+		.storytext {
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+			color: white;
+			font-weight: bold;
+			border: 3px solid white;
+			position: absolute;
+			left: 50%;
+			top: 135%;
+			transform: translate(-50%, -50%);
+			width: 50%;
+			padding: 50px;
+			text-align: center;
+		}
+
+		.content {
+			width: 1000px;
+			border: 2px solid black;
+			margin-left: 10%;
+			background-color: white;
+			height: 300px;
+			left: 2%;
+			padding: 60px;
+			top: 177%;
+			position: absolute;
+			margin-left: 240px;
+		}
+
+			.content:hover {
+				background-color: #A5A5A5;
+				color: white;
+			}
+
+		.column {
+			float: left;
+			width: 50%;
+		}
+		/*nav align
+				.row {
+				  margin: left;
+				  max-width: 1310px;
+
+				}*/
+
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		.row {
+			/*	padding:40px;*/
+		}
+		/*
+						.row,
+						.row > .column {
+							padding: 20px;
+						}
+		*/
+		.show {
+			display: block;
+		}
+
+
+		
+		h1{
+			text-align:center;
+			color:white;
+			border-radius: 5px;
+			background-color: black;
+		}
+		
+		h2{
+			text-align:center;
+			color:white;
+			border-radius: 5px;
+		
+		}
+
+		h3{
+			text-align:center;
+			color:black;
+			border-radius: 5px;
+		
+		}
+
+
+		.footer {
+			clear: both;
+			padding: 30px;
+			background-color: black;
+			color: white;
+			text-align: center;
+			margin-top: ;
+		}
+
+		.hu {
+			padding: 40px;
+			background-image: url("https://www.itl.cat/pngfile/big/39-398683_red-abstract-wallpapers-hd-abstract-red-background-png.jpg")
+		}
+
+.column2 {
+  float: left;
+  width: 23.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  background-color:;
+  margin-left:120px;
+  margin-bottom:20px;
+  margin-top:15px;
+
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  margin: 8px;
+  text-align:center;
+  height:300px;
+
+}
+
+.container2 {
+	text-align:center;
+  padding: 0 16px;
+
+}
+
+.container2::after, .row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+.button:hover {
+  background-color: red;
+}
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+
+            .title {
+                color: grey;
+            }
+        .back{
+	background-image:url("https://i.pinimg.com/originals/58/61/31/5861313a762f8ba11c2650e882ba90b9.jpg"); height:800px;
+
+
+        }
+
+        .rotateimg {
+            transform: rotate(270deg);
+        }
+
+.vl {
+  border-left: 2px solid black;
+  height: 500px;
+  float:right;
+  margin-right:67px;
+}
+
+	</style>
+
+	<br /><br /><h1>About Rexaro</h1><br /><hr />
+	<div class="hu">
+		<div class="row">
+			<div class="column">
+				<div class="vl"></div>
+
+				<div class="descborder">
+
+					<h2> Scope </h2>
+					<p style="font-family: Times New Roman,serif ">
+						The aim of this project is to develop an online leave application system that is necessary for a firm like Rexaro. The Employee Leave Application System is intended to automate employee administration and management, as well as strategic leave planning for employees. This system also keeps track of all personnel records. At the same time, this system also provides a platform that will automate employee leave administration in a way that is easy for both the admin and employees. Our system can also handle all stages of leave management, such as leave application, approval, and rejection.
+					</p>
+
+				</div>
+
+			</div>
+
+			<div class="column">
+				<div class="profileborder">
+					<h2> Objective </h2><br />
+					<p style="font-family:Times New Roman,serif">
+						The main objective of this project is to reduce paperwork and to help maintain the database. There are several other objectives that we as a group have encountered in this project such as:
+						<p>1) For the employees to be able to request for their leave in the leave request form.</p>
+						<p>2) For the employees to be able to view their check status.</p>
+						<p>3) For the administrator to be able to perform the approval of the leave request.</p>
+						<p>4) For the administrator to be able to check the status.</p>
+
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<img src="https://i.pinimg.com/originals/76/b8/3b/76b83b53cf99d209608781f536b1fdb5.jpg" width=100% height=400px style="filter:blur(4px)">
+	<div class="storytext">
+		<h2 style="font-size:50px">INTRODUCTION</h2>
+		<p>Leave Application System</p>
+	</div>
+	<img src="https://images2.alphacoders.com/774/774372.jpg" width=100% height=400px style="filter:blur(2px)">
+	<div class="row">
+		<div class="column">
+			<div class="content">
+				<p style="font-family:Times New Roman,serif">
+					We as group came to a decision to choose the leave application system as our project title. Employees must take time off to relax and recoup in order to prevent being overworked. 
+					As a result, our system assists the company called REXARO in managing their employee time off requests in a more efficient, fair, and accurate manner. In order to access our leave application system, the user first must log in as an administrator or employee. 
+					If the user selects to login as an employee, they must provide an Employer Name and Employer Password. The employee can obtain a leave of absence and complete out the necessary paperwork. 
+					When seeking leave, the employee must keep in mind certain restrictions, such as 8 days per year for employees who have worked for 1-2 years. 
+					Also, if you have been with the company for 1-2 years, you may be eligible for 14 days of medical leave every year. 
+					Finally, a casual leave policy allows for a maximum of 8-15 days of casual leave each year. The employee can use the check status page to see the status of their leave application.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!--info card-->
+	<div class="back">
+		<br /><br />
+		<h3>GROUP MEMBERS</h3><br /><br />
+		<div class="row2">
+			<div class="column2">
+				<div class="card2">
+					<div class="container2">
+						<h3>Poovenesswary A/P Rajasegaran</h3>
+						<p class="title">Group Leader & Designer</p>
+						<p>Majoring: BIA</p>
+						<br /><br />
+						<p><a href="mailto:1181103512@student.mmu.edu.my"><button class="button">Contact</button></a></p><br />
+					</div>
+				</div>
+			</div>
+
+			<div class="column2">
+				<div class="card2">
+					<div class="container2">
+						<h3>Muhammad Faris Bin Hanafiah</h3>
+						<p class="title">Designer</p>
+						<p>Majoring: BIA</p>
+						<br /><br />
+						<p><a href="mailto:1201302744@student.mmu.edu.my"><button class="button">Contact</button></a></p><br />
+					</div>
+				</div>
+			</div>
+
+			<div class="column2">
+				<div class="card2">
+					<div class="container2">
+						<h3>Amni Bazilah Husna binti Nazarudin</h3>
+						<p class="title">Designer</p>
+						<p>Majoring: ST</p>
+						<br />
+						<p><a href="mailto:1191102157@student.mmu.edu.my"><button class="button">Contact</button></a></p><br />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column2">
+			<div class="card2">
+				<div class="container2">
+					<h3>Anis Syafiqah binti Jusoh</h3>
+					<p class="title">Designer</p>
+					<p>Majoring: BIA</p>
+					<br />
+					<p><a href="mailto:1191102183@student.mmu.edu.my"><button class="button">Contact</button></a></p><br />
+				</div>
+			</div>
+		</div>		
+	</div>
+</div>
+    <div class="footer">
+        Copyright &copy; 2022 Rexaro. All rights reserved.
+    </div>	
+</body>	
+</html>

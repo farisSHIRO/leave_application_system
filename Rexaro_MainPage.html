@@ -1,0 +1,199 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+
+
+    <title>REXARO</title>
+  </head>
+  <body>
+<style>
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  background: #AA98A9;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 60px;
+}
+.logo {
+  flex: 1;
+  margin-left: 40px;
+}
+
+.logo h1 {
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+.list-items {
+  flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.4s background;
+}
+
+.link:hover {
+  color: #ba4c4a;
+}
+
+.main {
+  background: #AA98A9;
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-left {
+  height: 100%;
+  width: 50%;
+}
+.main-right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img-v {
+  height: 30vw;
+  width: 30vw;
+}
+
+.main-right p {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.text {
+  margin-left: 18%;
+  padding-top: 32%;
+}
+
+.text span {
+  font-size: 7vw;
+  letter-spacing: 25px;
+  font-weight: bold;
+}
+
+.text p {
+  padding-top: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.right-bar {
+  position: absolute;
+  width: 60px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.icon-btn {
+  margin-top: 20px;
+  background: white;
+  text-decoration: none;
+  color: grey;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: relative;
+}
+
+.icon-btn i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search {
+  position: absolute;
+  color: white;
+  top: 25px;
+  font-size: 20px;
+}
+
+
+</style>  
+    <header>
+      <nav>
+        <div class="logo"><h1>REXARO</h1></div>
+        <ul class="list-items">
+          <li class="list"><a href="Employee_LoginPage.html" class="link">EMPLOYEE</a></li>
+
+          <li class="list"><a href="Admin_LoginPage.html" class="link">ADMIN</a></li>
+
+        </ul>
+      </nav>
+      <div class="main">
+        <div class="main-left">
+          <div class="text">
+            <p>
+				Welcome to REXARO<br><br>
+				1) To Login As Admin click Admin <br><br>
+				2) To Login As Employee click Employee
+            </p>
+          </div>
+        </div>
+        <div class="main-right">
+          <img
+            class="img-v"
+            src="logo_rexaro.png"
+            alt=""
+          />
+        
+        </div>
+      </div>
+      <div class="right-bar">
+        <a class="search" href="CompanyPage.html"><i class="fas fa-search"></i></a>
+      </div>
+    </header>
+    <section></section>
+  </body>
+</html>
