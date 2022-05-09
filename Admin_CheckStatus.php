@@ -4,7 +4,7 @@
 	include 'connectadmin.php';
 
 ?>
-
+<!-- hello world -->
 <html>
 <head>
     <title>Check Status</title>	
