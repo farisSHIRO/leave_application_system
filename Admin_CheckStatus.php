@@ -1,4 +1,4 @@
-
+<!-- just a random comment -->
 <?php
 
 	include 'connectadmin.php';
